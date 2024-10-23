@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw1: register</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul>
+                <li><a class="menu_link" href="index.html">Главная</a></li>
+                <li><a class="menu_link" href="projects.html">Проекты</a></li>
+                <li><a class="menu_link" href="autho.html">Вход</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="register">
+        <h2>Зарегистрироваться</h2>
+        <form action="">
+          <label for="fname">Имя:</label><br>
+          <input type="text" id="fname" name="fname" placeholder="Камила"><br><br>
+        
+          <label for="lname">Фамилия:</label><br>
+          <input type="text" id="lname" name="lname" placeholder="Нуруллина"><br><br>
+        
+          <label for="email">Электронная почта:</label><br>
+          <input type="email" id="email" name="email" placeholder="kamila@gmail.com"><br><br>
+
+          <label for="password">Пароль:</label><br>
+          <input type="password" id="password" name="password"><br><br>
+
+          <label for="tel">Телефон:</label><br>
+          <input type="tel" id="tel" name="tel" placeholder="+7 (351) 240-04-40"><br><br>
+
+          <fieldset>
+            <legend>Пол:</legend>
+            
+            <div>
+                <input type="radio" id="man" name="man" value="man">
+                <label for="man">Мужчина</label>
+            </div>
+
+            <div>
+                <input type="radio" id="woman" name="woman" value="woman">
+                <label for="woman">Женский</label>
+            </div>
+            
+          </fieldset><br>
+
+          <fieldset>
+            <legend>Интересы:</legend>
+          
+            <div>
+              <input type="checkbox" id="it" name="it" checked />
+              <label for="it">IT</label>
+            </div>
+          
+            <div>
+              <input type="checkbox" id="eco" name="eco" />
+              <label for="eco">Экология</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="buisness" name="buisness" />
+                <label for="buisness">Бизнес</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="finance" name="finance" />
+                <label for="finance">Финансы</label>
+            </div>  
+
+            <div>
+                <input type="checkbox" id="art" name="art" />
+                <label for="art">Искусство</label>
+            </div>
+          </fieldset>
+
+                  
+          <input type="submit" value="Submit">
+        </form> 
+    </div>
+
+
+    <footer class="footer"></footer>
+        <p align="center" class="footr_text">Нуруллина Камила БФЗ-233</p>
+    </footer>
+</body>
+
+</html>
