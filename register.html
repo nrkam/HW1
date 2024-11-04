@@ -20,33 +20,37 @@
 
     <div class="register">
         <h2>Зарегистрироваться</h2>
+
         <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-          <label for="fname">Имя:</label><br>
-          <input type="text" id="fname" name="fname" placeholder="Камила"><br><br>
-        
-          <label for="lname">Фамилия:</label><br>
-          <input type="text" id="lname" name="lname" placeholder="Нуруллина"><br><br>
-        
-          <label for="email">Электронная почта:</label><br>
-          <input type="email" id="email" name="email" placeholder="kamila@gmail.com"><br><br>
+            <label for="q">Для поисковика: </label><br>
+            <input name="q" value="search"><br><br>
 
-          <label for="password">Пароль:</label><br>
-          <input type="password" id="password" name="password"><br><br>
+            <label for="fname">Имя:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Камила"><br><br>
+        
+            <label for="lname">Фамилия:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Нуруллина"><br><br>
+        
+            <label for="email">Электронная почта:</label><br>
+            <input type="email" id="email" name="email" placeholder="kamila@gmail.com"><br><br>
 
-          <label for="tel">Телефон:</label><br>
-          <input type="tel" id="tel" name="tel" placeholder="+7 (351) 240-04-40"><br><br>
+            <label for="password">Пароль:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="tel">Телефон:</label><br>
+            <input type="tel" id="tel" name="tel" placeholder="+7 (351) 240-04-40"><br><br>
 
           <fieldset>
             <legend>Пол:</legend>
             
             <div>
-                <input type="radio" id="man" name="man" value="man">
-                <label for="man">Мужчина</label>
+                <input type="radio" id="man" name="gender" value="man">
+                <label for="gender">Мужчина</label>
             </div>
 
             <div>
-                <input type="radio" id="woman" name="woman" value="woman">
-                <label for="woman">Женский</label>
+                <input type="radio" id="woman" name="gender" value="woman">
+                <label for="gender">Женский</label>
             </div>
             
           </fieldset><br>
@@ -79,7 +83,7 @@
                 <label for="art">Искусство</label>
             </div>
           </fieldset>
-
+          <br>
                   
           <input type="submit" value="Submit">
         </form> 
