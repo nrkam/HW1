@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw1: passport</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul>
+                <li><a align="center" class="menu_link" href="index.html">Главная</a></li>
+                <li><a align="center" class="menu_link" href="projects.html">Проекты</a></li>
+                <li><a align="center" class="menu_link" href="autho.html">Вход</a></li>
+                <li><a align="center" class="menu_link" href="passport.html">Паспорт</a></li>
+                <li><a align="center" class="menu_link" href="DOM_JS.html">DOM_JS. Считываем информацию из DOM</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div align="center"> 
+        <h1 size="800" id="russianFederation" style="color:grey">РОССИЙСКАЯ ФЕДЕРАЦИЯ</h1>
+
+        <div class="string">
+            <span size="800" id="givenByWhom" style="color:#A52A2A">Паспорт выдан </span>
+            <span id="givenByWhomText" size="800">ТП №23, отдела УФМС России по СПб и ЛО в Калининском р-не СПБ</span>
+            <br>
+        </div>
+
+        <div class="string">
+            <span size="800" id="date" style="color:#A52A2A">Дата выдачи </span>
+            <span size="1000" id="dateText">17.12.2004 </span>
+            <span size="800" id="code" style="color:#A52A2A">Код подразделения </span>
+            <span size="1000" id="codeText">292-000</span>
+            <br>
+        </div>
+
+        <div class="string">
+            <img src="write.jpg" id="signature" width="200" height="200">
+            <img src="tu.png" id="seal" width="200" height="200">
+            <span size="800" id="personalSignature" style="color:#A52A2A">Личная подпись </span>
+            <img src="to.png" id="personalSignatureText" width="100">
+            <br>
+        </div>
+        
+        <div class="string">
+            <img src="person.jpg" id="photo" width="200">
+            <br>
+        </div>
+
+        <div class="string">
+            <span size="800" id="surname" style="color:#A52A2A">Фамилия </span>
+            <span id="surnameText">АЛЕКСАНДРОВА</span>
+            <br>
+        </div>
+
+        <div class="string">
+            <span size="800" id="name" style="color:#A52A2A">Имя </span>
+            <span id="nameText">АЛЕКСАНДРА</span>
+            <br>
+        </div>
+
+        <div class="string">
+            <span size="800" id="fatherName" style="color:#A52A2A">Отчество </span>
+            <span id="fatherNameText">АЛЕКСАНДРОВНА</span>
+            <br>
+        </div>
+
+        <div class="string">
+            <span size="800" id="gender" style="color:#A52A2A">Пол </span>
+            <span id="genderText">жен </span>
+
+            <span size="800" id="dateOfBirth" style="color:#A52A2A">Дата рождения </span>
+            <span id="dateOfBirthText">19.17.1990</span>
+            <br>
+        </div>
+
+        <div class="string">
+            <span size="800" id="placeOfBirh" style="color:#A52A2A">Место рождения </span>
+            <span id="placeOfBirhText">ГОР. МОСКВА </span>
+            <br>
+        </div>
+
+        <br>
+        <button id="button">Изменяем кириллицу на латиницу по клику</button>
+    </div>
+
+    <footer class="footer">
+        <p align="center" class="footerText">Нуруллина Камила БФЗ-233</p>
+    </footer>
+
+</body>
+<script src="button.js"></script>
+</html>
