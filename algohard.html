@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw1: algohard</title>
+</head>
+
+<body>
+    <h1 align="center">Алгоритмическая задача</h1>
+
+    <form action="https://www.bing.com/search?" id="form">
+
+        <label for="q">Для поисковика: </label>
+        <input name="q" value="search">
+        <br>
+        <br>
+
+        <input name="formulation" size="89" type="text" value="Имеется коробка со сторонами: A × B × C. Определить, пройдёт ли она в дверь с размерами M × K.">
+        <br>
+        <br>
+
+        <div class = "values-container">
+            <div class = "value">
+                <label for="A">A = </label>
+                <input id="A" name="A" type="number">
+                <br>
+                <br>
+            </div>
+
+            <div class = "value">
+                <label for="B">B = </label>
+                <input id="B" name="B" type="number">
+                <br>
+                <br>
+            </div>
+    
+            <div class = "value">
+                <label for="C">C = </label>
+                <input id="C" name="C" type="number">
+                <br>
+                <br>
+            </div>
+
+            <br>
+
+            <div class = "value">
+                <label for="M">M = </label>
+                <input id="M" name="M" type="number">
+                <br>
+                <br>
+            </div>
+
+            <div class = "value">
+                <label for="K">K = </label>
+                <input id="K" name="K" type="number">
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <input type="button" id="button" value="Показать результат">
+            <br>
+            <br>
+        </div>
+    
+        <div class="result-container">
+            <label for="result">Результат: </label>
+            <input id="result" name="result" type="text" value="">
+        </div>
+
+        <div class="send-container">
+            <br>
+             <input id="send" type="button" value="Отправить на удаленный сервер">
+        </div>
+    </form>
+</body>
+<script src="algohard.js"></script>
+</html>
