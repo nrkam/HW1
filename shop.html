@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <title>hw1: shop</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul>
+                <li><a class="menu_link" href="index.html">Главная</a></li>
+                <li><a class="menu_link" href="projects.html">Проекты</a></li>
+                <li style="float: right"><a class="menu_link" href="autho.html">Вход</a></li>
+                <li><a class="active" href="shop.html">Магазин</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="h1">Магазин компании OfferJoin</h1>
+    <div class="shop">
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <input name="q" type="hidden" value="search">    
+            <div class="form_radio">
+                <div>
+                    <input type="radio" id="now" name="money" value="now" checked />
+                    <label for="now">Оплата сразу</label>
+                  </div>
+                
+                  <div>
+                    <input type="radio" id="after" name="money" value="after" />
+                    <label for="after">Оплата при получении</label>
+                  </div>
+            </div>
+    
+            <div class="good">
+                <a><img src="tshirt1.jpg" alt="" width="200"></a>
+                <h3><a class='good_name'>Футболка белая</a></h3>
+                <a class="good_text">Цена: 200 руб.</a>
+                <p class="button">Заказать
+                    <input class="w-25" type="number" id="tshirt1" name="amount" value="0">
+                </p>
+            </div>
+            <div class="good">
+                <a><img src="tshirt2.jpg" alt="" width="240"></a>
+                <h3><a class='good_name'>Футболка черная</a></h3>
+                <a class="good_text">Цена: 200 руб.</a>
+                <p class="button">Заказать
+                    <input class="w-25" type="number" id="tshirt2" name="amount" value="0">
+                </p>
+            </div>
+            <div class="good">
+                <a><img src="tshirt3.jpg" alt="" width="200"></a>
+                <h3><a class='good_name'>Футболка серая</a></h3>
+                <a class="good_text">Цена: 200 руб.</a>
+                <p class="button">Заказать
+                    <input class="w-25" type="number" id="tshirt3" name="amount" value="0">
+                </p>
+            </div>
+            <div class="good">
+                <a><img src="mug1.jpg" alt="" width="250"></a>
+                <h3><a class='good_name'>Кружка белая</a></h3>
+                <a class="good_text">Цена: 200 руб.</a>
+                <p class="button">Заказать
+                    <input class="w-25" type="number" id="mug1" name="amount" value="0">
+                </p>
+            </div>
+            <div class="good">
+                <a><img src="mug2.jpg" alt="" width="240"></a>
+                <h3><a class='good_name'>Кружка черная</a></h3>
+                <a class="good_text">Цена: 200 руб.</a>
+                <p class="button">Заказать
+                    <input class="w-25" type="number" id="mug2" name="amount" value="0">
+                </p>
+            </div>
+            <div class="good">
+                <a><img src="mug3.jpg" alt="" width="240"></a>
+                <h3><a class='good_name'>Кружка серая</a></h3>
+                <a class="good_text">Цена: 200 руб.</a>
+                <p class="button">Заказать
+                    <input class="w-25" type="number" id="mug3" name="amount" value="0">
+                </p>
+            </div>
+            </div>
+            <input class="btn_btn-primary" type="Submit" value="В корзину">
+            
+        </form>
+    <!-- <input class="btn_btn-primary" type="Submit" value="В корзину"> -->
+
+    <footer class="footer">
+        <p align="center" class="footr_text">Нуруллина Камила БФЗ-233</p>
+    </footer>
+
+
+    <script src=""></script>
+</body>
+</html>
